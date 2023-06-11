@@ -1,0 +1,48 @@
+.postCard{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+@media only screen and (max-width: 1329px) {
+    .postCard{
+        margin-bottom: 1em;
+    }
+    
+}
+.postCard .postImg{
+    height: 393px;
+    width: 393px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 385px) {
+    .postCard{
+        width: fit-content;
+    }
+    .postCard .postImg{
+        width: 100%;
+    } 
+}
+.postCard .postImg img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.postCard .content{
+    text-align: center;
+}
+.postCard .content .title{
+    margin-top: 1em;
+}
+.postCard .content .link{
+    margin-top: 1em;
+}
+.postCard .content .timeAndDate ul{
+    list-style: none;
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+}
+.postCard .content .timeAndDate ul li{
+    margin-left: 1em;
+    display: flex;
+}

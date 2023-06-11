@@ -1,0 +1,24 @@
+.blogs{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.blogs .content{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width: 1329px) {
+    .content{
+        flex-wrap: wrap;
+    } 
+}
+.blogs .tail{
+    width: fit-content;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}

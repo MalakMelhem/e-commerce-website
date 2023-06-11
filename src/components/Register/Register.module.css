@@ -1,0 +1,48 @@
+.register{
+    /* height: 630px; */
+    /* width: 608px; */
+    width: 48%;
+    padding: 2em;
+    position: relative;
+}
+@media only screen and (max-width: 1258px) {
+    .register{
+      width: 100%;
+
+    }
+  }
+.register .title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 0.5em;
+}
+.register .descTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0.5em;
+}
+.register p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 0.5em;
+}
+.register .textField{
+    margin-bottom: 2em;
+    width: 85%;
+}
+@media only screen and (max-width: 524px) {
+    .register .textField{
+        width: 100%;
+    }
+  }
+.register .btnBox{
+    margin-top: 1.5em;
+}
+.register .alert{
+    position: absolute;
+    top:-30px;
+    right:0;
+}

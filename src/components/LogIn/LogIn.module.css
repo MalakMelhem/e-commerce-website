@@ -1,0 +1,51 @@
+.logIn{
+    /* height: 630px; */
+    /* width: 608px; */
+    width: 48%;
+    padding: 2em;
+    position: relative;
+}
+@media only screen and (max-width: 1258px) {
+    .logIn{
+      width: 100%;
+
+    }
+  }
+.logIn .title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 0.5em;
+}
+.logIn .descTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0.5em;
+}
+.logIn .textField{
+    margin-bottom: 1em;
+}
+
+.logIn .checkbox{
+    margin-bottom: 1.5em;
+}
+.logIn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 2em;
+}
+@media only screen and (max-width: 524px) {
+    .logIn .logInBox{
+        display: flex;
+    }
+  }
+
+.logIn .alert {
+    position: absolute;
+    top:-30px;
+    right:0;
+} 

@@ -1,0 +1,33 @@
+.purchasingBanner{
+    width: 100%;
+    background-color: #FAF4F4;
+    /* height: 300px; */
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+}
+.content{
+    width: 30%;
+}
+.content h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #9F9F9F;
+}
+@media only screen and (max-width: 979px) {
+    .purchasingBanner{
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .content{
+        width: 40%;
+    }
+
+  }

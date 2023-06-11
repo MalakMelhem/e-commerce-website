@@ -1,0 +1,12 @@
+.mainDetails{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    border-bottom: 1px solid #D9D9D9;
+    width: 100%;
+}
+@media only screen and (max-width: 844px) {
+    .mainDetails{
+        flex-direction: column;
+    }
+  }

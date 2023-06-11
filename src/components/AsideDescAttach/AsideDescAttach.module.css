@@ -1,0 +1,26 @@
+.asideDescAttach{
+    /* width: 606.0066528320312px; */
+    width: 90%;
+    padding-top: 1em;
+    border-top: 1px solid #9F9F9F;
+}
+.asideDescAttach .attachments{
+    padding: 0.2em;
+    display: flex;
+}
+.asideDescAttach .attachments p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.asideDescAttach .attachments .title{
+    width: 75px;
+}
+.asideDescAttach .attachments .desc{
+    margin-left: 0.5em;
+}
+.asideDescAttach .attachments img{
+    color:black;
+    margin-right: 1em;
+}

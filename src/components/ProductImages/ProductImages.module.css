@@ -1,0 +1,102 @@
+.productImages{
+    display: flex;
+    /* height: 500px; */
+    /* width: 553px; */
+    height: 70%;
+    width: 40%;
+    margin-left: 5em;
+    margin-right: 1em;
+}
+.productImages .asideImages{
+    /* height: 416px; */
+    /* width: 76px; */
+    height: 50%;
+    width: 17%;
+}
+.productImages .mainImage{
+    /* height: 500px; */
+    /* width: 423px; */
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #FFF9E5; */
+}
+.productImages .mainImage img{
+    width: 100%;
+    border-radius: 10px;
+}
+.productImages .asideImages .asideImage{
+    height: 80px;
+    /* width: 76px; */
+    width: fit-content;
+    border-radius: 10px;
+    /* background-color: #FFF9E5; */
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.productImages .asideImages .asideImage:hover{
+    border-radius: 10%;
+    border:1px solid #ffb366;
+}
+.productImages .asideImages .asideImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+@media only screen and (max-width: 1238px) and (min-width: 844px){
+    .productImages{
+        flex-direction: column;
+    }
+    .productImages .asideImages{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        width: 100%;
+        order: 2;
+    }
+    .productImages .mainImage{
+        order:1;
+        margin-bottom: 1em;
+    }
+    .productImages .asideImages .asideImage{
+        margin: 0.5em;
+    }
+  }
+
+  @media only screen and (max-width: 844px) {
+    .productImages{
+        margin-left: 3em;
+        width: 90%;
+        justify-content: center;
+    }
+    .productImages .mainImage{
+        width: 70%;
+    }
+    .productImages .asideImages{
+        width: fit-content;
+    }
+
+  }
+  .asideImageSkeleton, .mainImageSkeleton{
+    border-radius: 10px;
+  }
+  @media only screen and (max-width: 602px) {
+    .productImages .mainImage{
+        width: 80%;
+    }
+    .productImages .asideImages{
+        width: 20%;
+    }
+
+  }
+  
+
+
+

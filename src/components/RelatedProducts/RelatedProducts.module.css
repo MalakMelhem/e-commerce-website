@@ -1,0 +1,18 @@
+.relatedProducts{
+    margin: 2em 5em 5em;  
+}
+.relatedProducts .container{
+     display: flex;
+     flex-wrap: wrap;
+}
+@media only screen and (max-width: 1316px) {
+    .relatedProducts .container{
+        justify-content:center;
+  }
+}
+.relatedProducts .tail{
+    width: fit-content;
+    margin: auto;
+    margin-top: 3em;
+
+}

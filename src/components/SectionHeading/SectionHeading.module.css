@@ -1,0 +1,16 @@
+.headerTitles{
+    text-align: center;
+}
+.headerTitles h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+}
+.headerTitles p{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #9F9F9F;
+}
