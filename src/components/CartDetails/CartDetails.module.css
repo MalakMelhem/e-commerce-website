@@ -1,0 +1,17 @@
+.cartDetails{
+    min-height: 525px;
+    display: flex;
+    padding: 3em 5em;
+}
+
+@media only screen and (max-width: 984px) {
+    .cartDetails {
+      flex-wrap: wrap;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .cartDetails {
+      padding: 2em 1em;
+    }
+   
+  }

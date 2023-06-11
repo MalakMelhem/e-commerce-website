@@ -1,0 +1,23 @@
+.navlink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.navlink a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 0.5em;
+}
+.navIcon{
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.5em;
+    font-size: 20px;
+}

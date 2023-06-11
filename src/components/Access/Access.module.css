@@ -1,0 +1,21 @@
+.access{
+    display: flex;
+    padding: 2em 6em;
+    margin: 0 3em;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1258px) {
+    .access {
+      flex-direction: column;
+      /* align-items: center; */
+      align-content: center;
+
+    }
+  }
+  @media only screen and (max-width: 804px) {
+    .access {
+     padding: 2em 2em;
+     margin: 0;
+
+    }
+  }

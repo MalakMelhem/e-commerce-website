@@ -1,0 +1,39 @@
+.topProducts{
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+.topProducts .headerTitles{
+    text-align: center;
+}
+.topProducts .headerTitles h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+}
+.topProducts .headerTitles p{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.topProducts .content{
+    /* margin: 1em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1218px) {
+    .content{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+.topProducts .tail{
+    width: fit-content;
+    margin: auto;
+    margin-top: 2em;
+
+}

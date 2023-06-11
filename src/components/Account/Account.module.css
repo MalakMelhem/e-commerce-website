@@ -1,0 +1,37 @@
+.account{
+    width: 48%;
+    padding: 2em;
+    margin: auto;
+    position: relative;
+}
+@media only screen and (max-width: 1016px) {
+    .account{
+      width: 90%;
+    }
+  }
+.account .title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 0.5em;
+}
+.account .descTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0.5em;
+}
+.account .textField{
+    margin-bottom: 1em;
+    width:100%;
+}
+
+.account .alert {
+    position: absolute;
+    top:-30px;
+    right:0;
+}
+.account .accountBtn{
+    display: flex;
+    justify-content: space-between;
+} 
